@@ -1,0 +1,19 @@
+On the Use and Misuse of Decorators
+
+What is a decorator?
+
+Take a function as a parameter and then acts as a wrapper on that function
+
+"A decorator is a function that rakes a function and returns a function" - but not really
+
+static methods allow factory functions to live within the class
+
+Encapsulation becoems more possible with decorators
+
+Decorator Design Patterns 
+	- The Scoped Block Pattern - blocks help maintain variable scope. If use decorators you can save having to define a variable twice if you have to deal with errors
+	- The Stream Transformation Pattern with mutliline functions - eg a list transformation or generator expression. Decorator can work better than a throwaway function for your list comprehension. 
+	- The Builder Pattern - the usual form has a lot of repetition. Using decorators removes a lot of the repetition and it puts the code where you expect it
+	- The Code Registry Pattern - eg Flask App Router
+
+
