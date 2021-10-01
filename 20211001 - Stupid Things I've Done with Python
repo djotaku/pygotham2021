@@ -1,1 +1,17 @@
 Stupid things I've Done With Python
+
+1 == True and 0 == False
+
+"True" == True is True
+
+"False" == True is True. What?!? (just kidding, this makes sense)
+
+what he wants is 
+
+"True" == True-ish is True and "False" == True-ish is False
+
+This demonstrates the __eq__ method
+
+But then the __rsub__ method because to make True-ish the Python interpreter thinks you're subtracting ish from True.
+
+
