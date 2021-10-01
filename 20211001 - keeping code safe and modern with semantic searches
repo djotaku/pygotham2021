@@ -1,0 +1,22 @@
+Keeping Code Safe and Modern with Semantic Searches
+
+Two types of feedback:
+- static analysis - it can happen continously (eg PyCharm)
+
+- Runtime feedback - inspects state and behavior
+
+Failing unit tests are a type of runtime feedback
+
+We shoudl have tight feedback loops to make changes earlier in the cycle - "shift left movement"
+
+Synamtic Querying tools help provide this - speaker calls them highly personalized linters
+
+Where do we call a function, where do we use pre-formatted strings instead of interpolation, which of our Django foreign key rerences delete on cascade?
+
+Semgrep - gives you a CLI for searches and runnign rules. You configure the rules with YAML. So you can make nestable queries and metavariables to provide messages and fixes.
+
+(see examples of calls to tool in his talk)
+
+Semgrep can work well with IDEs, pre-commit hooks, and GitHub Actions
+
+

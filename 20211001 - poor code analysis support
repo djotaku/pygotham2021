@@ -1,0 +1,14 @@
+
+How we dealt with poor code analysis support in our generator, metaclasses, and code generation heavy projects
+
+IDE stops working with proper hints once you put a decorator on your function. Why?
+
+Well, in his decorator function the wrapper takes *args and **kwargs. is this why? no.
+
+Problem is that IDE is doing static anylysis.
+
+To fix this requires very careful coding of the decorator.
+
+Sometimes the code is just too complex and you cannot make it work within your decorator. But you can use stub files (PEP-484) to provide the typing information.
+
+
