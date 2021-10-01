@@ -1,0 +1,13 @@
+Between each step of building datapoints should be considered to be a potential failure point
+
+Cost of Poor data quality includes the fact that it's time consuming to fix and that bad business decisions can be made
+
+One recc from the speaker is to use TDD and test at each potential failure point including before sending off to production use
+
+What you test for depends on what's core to your business or group
+
+Eg: We might need to make sure we're not introducing duplicates into our data. We can write tests to check for duplicates
+
+Remember that testing is hard to get started, but once it gets going, it's pretty easy and will save time/cost
+
+
