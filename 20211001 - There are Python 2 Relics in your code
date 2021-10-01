@@ -1,0 +1,7 @@
+Be sure to think about the version of Python you will support because it determines the features you can use.
+
+you can pip install pyupgrade to change your code from Python 2 to Python 3 or you can even specify a version of Python 3
+
+Also black/blue and flake8/pylint afterwards
+
+video has lots of examples of how things have changed between Python 2 and Python 3
