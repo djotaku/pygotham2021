@@ -1,0 +1,42 @@
+Assessing and mitigating fairness in AI systems
+
+Fairlearn - a library to help data scientists improve the fairness of AI systems
+
+Every Thursday people in the community can join in and discuss the project 
+
+Fairness-related harms is a term the speaker thinks works better than "bias"
+
+Focus of talk: How are algorithms harming folks and who is being harmed?
+
+Types of algorithmic harms
+    - Allocation harms - the AI only gives opportunities or rearouces in a way that negatively impacts lives. eg: AI decided who gets a loan or a job 
+        - Important to think of the harms. Sometimes it is longer-term than just this one AI issue. Example speaker gives is that being denied a loan affects credit going forward
+    - QoS Harms - the systems perform worse for one group of people cmp[ared to others. Eg: Face detection systems that don't work for certain genders or races
+    - Representational harms - the AI reinforces things stereotypes, denigration, or antagonistic representations of users. Eg: Facebook saying african americans are gorillas
+        - Compared to other harms, these are most difficult to quantify and, therefore, fix.
+    - There are other harms and also some systmes have more than one type of harm at the same time. 
+        - when you are thinknig about "who is impacted" thinkg about intersectional identities - eg gender PLUS race
+
+Scenario where you are a data scientist working in a hospital to evelop an AI to recommend patients for a high-risk care management program
+
+Idenfitying harms - a false positive is a patent recommended who doesn't need the care. 
+    - a false negative is not recommending a patient that would have benefited
+    - So this is a potential for an allocation harm and a false negative is worse than a false positive
+    - Who do we think will end up more likely to be harmed? Previous literature suggests it will fall across race/ethnicity
+    
+
+What's our fiarness metric, then?
+
+We can to minimized false negative rate difference because we determined that negative is way worse than positive
+
+We will also monitor the selection rate - the fraction of patients recommended across racial groups
+
+Initial fairness assessment
+
+    - we brain a binary classifier 
+    - We use the MetricFrame object in Fairlearn and it will let us know how fairness
+
+We use a post-processing mitigation to fix what we discover in the previous step
+
+There's also the reductions approach. You create a new model to compensate for the issues the original model came up with. ExponentiatedGradient class in FairLearn
+

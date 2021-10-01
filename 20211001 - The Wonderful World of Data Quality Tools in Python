@@ -1,0 +1,36 @@
+Rather than the "six dimensions", this talk is about
+
+    - Profiling
+    - Documentation/lineage
+    - Validation/testing
+    - Version control - keeps a record of changes and the ability to do a rollback
+    - Cleaning
+    
+This talk is an overview of Python tools to help in this space. 
+
+The speaker decided to focus on individual tools rather than any end-to-end tools.
+
+For profiling:
+
+    - Pandas "describe" - gives you basic stats of the numeric values in your dataframe
+    - Pandas Profiling - gives a more detailed version of the above
+    
+Validation/Testing
+    - Bulwark - lets you add tests on methods tha return Pandas dataframes. It also has built-in tests
+    - Engarde - older version of Bulwark
+    - Voluptous - you can validate JSON/YAML
+    - Opulent Pandas - like above, but df-focused - instead of JSON it uses pandas dataframes
+    - mobydq - has a webapp 
+    - TDDA - 
+    - pydqc - compares columns between tables and tables for identity
+    - Great Expectations - you can write declarative data tests (I expect this table to have between x and y number of rows) and validate teh results of those tests
+
+Data version control
+    - dvc - it's built on top of git and made specifically for data and Machine Learning models
+    
+Data cleaning
+    - dedupe - uses fuzzy matching to perform data deduplication
+    - dataclearner - cleasn data frames (like drop rows with missing values)
+    - pyjanitor
+    
+Then the speaker presents some demos!
