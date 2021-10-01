@@ -1,0 +1,17 @@
+Graphs for Data Science with NetworkX
+
+Begins with graph terminilogy definted by using example of US contiguous US flight data.
+
+Second example is to use OpenStreetMap to find the shortest distance from A to B
+
+NetworkX object allows us to manipulate graphs (see code on page)
+
+OpenStreetMap data also has bearing and that allows us to know if we're turning left or right
+
+So you can combine OSM data and Djikstra's Algorithm to make a basic set of "GPS" directions
+
+Final demo is graph connectivity and BitCoin
+
+BitCoin transactions can be viewed as a directed weighted graph with the in/out being the money going back and forth as part of the transaction
+
+
