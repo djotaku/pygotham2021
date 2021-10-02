@@ -1,0 +1,13 @@
+Making Government Usaeable by anyone with Pandas, Python, and Eland
+
+US federal and state data is available. But usually in data formats that's not useful.
+
+Pandas can take flat files and help you work with the data to fix it and make it more useful
+
+Pandas can be computationally expensive
+
+ElasticSearch can help you search and visualize your data
+
+Eland allows you to combine Pandas and ElasticSearch
+
+then a demo

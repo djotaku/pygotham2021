@@ -1,0 +1,71 @@
+What's tech writing?
+
+The documenation that helps you get code running
+
+What's the difference between good and bad documentation?
+
+Usually it's the first impression someone has of your project - If they don't like it, they will move on
+
+It should teach users how to use your project effectively and SAFELY
+
+If it's good, you end up with a community around your project
+	- people will come back
+	- people will want to contribute
+	- people will tell their friends about the project
+
+Top 10 Tips/Tricks for Improving Documentation
+1. Make your end goal clear
+	- Have a clear, concise goal in your documentation in the first paragraph
+		- this lib will allow you to do X
+	- Don't sepend a bunch of time talking about how great the tech is
+	- make it clear what the user will be able to do after reading docs
+2. Don't be overly verbose
+	- concise, not a novel
+	- SAT words not needed - assume your user doesn't have your language as their primary language
+	- aim for low reading level
+		- speaker aims for 3rd grade level
+3. Use includive language
+	- avoid gendered language
+	- avoid using internet slang that can be viewed as deragatory
+		- noobs, 10x Developers, Dummies
+	- avoid words that can make someone question or doubt their skills
+		- What is "simple" or "easy" to someone might be challenging to someone else
+4. Limit Technical Jargon
+	- Jargon: special words used by proffession or group that are difficult for others to understand
+	- overuse of Jargon can make it difficult for beginners to grok your content
+		- See what he did there? what is grok?
+	- knowing your audience will help you decide how much gargon you can use
+		- beginners or an internal team?
+	- Assume beginners if you don't know your audience
+5. Defien all acronyms
+	- tech has way too many acronyms
+		- we have some that can mean more than one thing
+	- they can scare readers away
+	- write out the full name of acronym the first time you use it
+	- or define all at beginning or end (like appendix)
+6. Avoid memes/idioms and regional language
+	- unles you're positive who your audience is
+	- your 6 coworkers probably understand. A global audience, nope
+	- regional language might confuse both native and non-native speakers
+7. Use meaningful code samples and variable names
+	- use examples of real problems your code can solve
+	- use meaningful variable names
+		- so no foo, bar, etc
+	- include EVERYTHING needed to run code 
+		- do you need to import a lib first?
+	- always have completed copy of code for copy/pasting
+		- you may be showing snippest throughout your documentation, but the whole thing should be at the end
+8. Don't make your reader leave your docs
+	- don't make them leave your tutorial to learn something they need for your tutorial
+	- if you are going to send them away, have a reason and a way to get back
+9. Make your content scannable
+	- madke it easy for the reader to find a single piece of information
+	- use headings and subheadings to break up content
+	- use consistent style when writing
+		- the user picks up on this and is easily able to find what they need
+10. Verify your instructions! Test test test!!
+	- only thing worse than no docs is incorrect docs
+	- have someone else test it
+	- use a fresh environment for testing
+
+
