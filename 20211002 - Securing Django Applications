@@ -1,0 +1,11 @@
+djcheckup.com will evaluate your django site to look for security issues
+
+Always make sure that DEBUG is set to false.
+
+injection is the most common attack - an SQL injection used to execute arbitrary code
+
+Next worse is broken authentication - allowing for brute force or bad session manaagement
+
+There can also be Sensitive Data exposure
+
+

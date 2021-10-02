@@ -1,0 +1,24 @@
+This library allwos for Audio analysis and classicifation. 
+
+You can also clean audio with this library.
+
+ML at a high level
+1. Data collection
+2. Data cleaning and pre-processing
+3. Transform data into numerical representation
+
+Audio sends pressure waves that are interpreted by the brain.
+
+There are great MATLAB tools to process audio
+
+Two important terms:
+- Spectrum - audio in the frequency domain
+- Cepstrum - Log magnitude of spectrum and reverse fourier transform
+
+Our ear is a natural fourier transform analyzer
+
+MFCC - mel frequency cepstral coefficients - important way of visualizing audio
+
+So you can use it to classify audio - is this audio from an urban setting, for example
+
+

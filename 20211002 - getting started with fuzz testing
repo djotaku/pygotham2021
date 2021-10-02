@@ -1,0 +1,22 @@
+All code has errors, but how many of those errors become bugs?
+
+How do we keep a bug from leading to failure?
+
+Heartbleed Bug - overflow bug based on asking a server for more characters than it has
+
+Be prepared for the unexpected. There maybe infinite possibilities, your users will have no piety, no one may write a bug report
+
+Fuzz Testing - use unexpected and random data to see how the system reacts
+
+Tools for doing this:
+- Microsoft RAFT - can only test on code running on MS Azure
+- Google Atheris - unit test focused
+- Artillery.io - written in Javascript
+
+They didn't find a tool they wanted to use, so made their own
+
+repo called Big list of naughty strings - gives you strings you can use for fuzzing
+
+their tool is call Ahem and it will fuzz on the network
+
+
